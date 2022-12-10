@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main figure{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 13px;
+    box-shadow: 0 0 3px hsla(220, 15%, 55%, .3);
+    width: 20%;
+    height: inherit;
+}
+
+img{
+    width: 90%;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.hero{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+}
+.next{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 10px;
+}
+figcaption{
+    padding: 0 5% 5% 5%;
+}
+
+
+
+
+
+@media all and (max-width: 375px){
+    main figure{
+        width: 60%
+    }
+    .hero{
+        font-size: 8px;
+    }
+    .next{
+        font-size: 5px;
+    }
+}
+
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
